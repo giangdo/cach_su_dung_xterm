@@ -72,6 +72,7 @@ bashName="me"
 PS1="$BWhite$bashName:$Yellow\w$Yellow$White\$ $Color_Off"
 #Color of ls command
 eval `dircolors /home/giang/.dircolors/dircolors.256dark`
+alias ls="ls --color"
 
 #WORKING WITH TMUX
 #To fix bug: can not reaccess to tmux pane when we type Ctrl + S only
